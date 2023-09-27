@@ -7,22 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D7FD4ED2AC4D0650039C578 /* CalendarAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FD4EC2AC4D0650039C578 /* CalendarAppApp.swift */; };
-		2D7FD4EF2AC4D0650039C578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FD4EE2AC4D0650039C578 /* ContentView.swift */; };
+		2D4090A62AC4DAFD00EAD753 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4090A52AC4DAFD00EAD753 /* CalendarView.swift */; };
+		2D7FD4ED2AC4D0650039C578 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FD4EC2AC4D0650039C578 /* CalendarApp.swift */; };
 		2D7FD4F12AC4D0660039C578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FD4F02AC4D0660039C578 /* Assets.xcassets */; };
 		2D7FD4F42AC4D0660039C578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FD4F32AC4D0660039C578 /* Preview Assets.xcassets */; };
-		2D7FD4F62AC4D0660039C578 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FD4F52AC4D0660039C578 /* Persistence.swift */; };
-		2D7FD4F92AC4D0660039C578 /* CalendarApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FD4F72AC4D0660039C578 /* CalendarApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D4090A52AC4DAFD00EAD753 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		2D7FD4E92AC4D0650039C578 /* CalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D7FD4EC2AC4D0650039C578 /* CalendarAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarAppApp.swift; sourceTree = "<group>"; };
-		2D7FD4EE2AC4D0650039C578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D7FD4EC2AC4D0650039C578 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
 		2D7FD4F02AC4D0660039C578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D7FD4F32AC4D0660039C578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2D7FD4F52AC4D0660039C578 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		2D7FD4F82AC4D0660039C578 /* CalendarApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CalendarApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +51,9 @@
 		2D7FD4EB2AC4D0650039C578 /* CalendarApp */ = {
 			isa = PBXGroup;
 			children = (
-				2D7FD4EC2AC4D0650039C578 /* CalendarAppApp.swift */,
-				2D7FD4EE2AC4D0650039C578 /* ContentView.swift */,
+				2D7FD4EC2AC4D0650039C578 /* CalendarApp.swift */,
+				2D4090A52AC4DAFD00EAD753 /* CalendarView.swift */,
 				2D7FD4F02AC4D0660039C578 /* Assets.xcassets */,
-				2D7FD4F52AC4D0660039C578 /* Persistence.swift */,
-				2D7FD4F72AC4D0660039C578 /* CalendarApp.xcdatamodeld */,
 				2D7FD4F22AC4D0660039C578 /* Preview Content */,
 			);
 			path = CalendarApp;
@@ -143,10 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D7FD4F62AC4D0660039C578 /* Persistence.swift in Sources */,
-				2D7FD4EF2AC4D0650039C578 /* ContentView.swift in Sources */,
-				2D7FD4ED2AC4D0650039C578 /* CalendarAppApp.swift in Sources */,
-				2D7FD4F92AC4D0660039C578 /* CalendarApp.xcdatamodeld in Sources */,
+				2D7FD4ED2AC4D0650039C578 /* CalendarApp.swift in Sources */,
+				2D4090A62AC4DAFD00EAD753 /* CalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,19 +337,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2D7FD4F72AC4D0660039C578 /* CalendarApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2D7FD4F82AC4D0660039C578 /* CalendarApp.xcdatamodel */,
-			);
-			currentVersion = 2D7FD4F82AC4D0660039C578 /* CalendarApp.xcdatamodel */;
-			path = CalendarApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 2D7FD4E12AC4D0650039C578 /* Project object */;
 }
