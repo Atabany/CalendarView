@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2D4090A62AC4DAFD00EAD753 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4090A52AC4DAFD00EAD753 /* CalendarView.swift */; };
+		2D4090A82AC4DB5000EAD753 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4090A72AC4DB5000EAD753 /* Util.swift */; };
 		2D7FD4ED2AC4D0650039C578 /* CalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7FD4EC2AC4D0650039C578 /* CalendarApp.swift */; };
 		2D7FD4F12AC4D0660039C578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FD4F02AC4D0660039C578 /* Assets.xcassets */; };
 		2D7FD4F42AC4D0660039C578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7FD4F32AC4D0660039C578 /* Preview Assets.xcassets */; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		2D4090A52AC4DAFD00EAD753 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		2D4090A72AC4DB5000EAD753 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		2D7FD4E92AC4D0650039C578 /* CalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7FD4EC2AC4D0650039C578 /* CalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarApp.swift; sourceTree = "<group>"; };
 		2D7FD4F02AC4D0660039C578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				2D7FD4EC2AC4D0650039C578 /* CalendarApp.swift */,
 				2D4090A52AC4DAFD00EAD753 /* CalendarView.swift */,
+				2D4090A72AC4DB5000EAD753 /* Util.swift */,
 				2D7FD4F02AC4D0660039C578 /* Assets.xcassets */,
 				2D7FD4F22AC4D0660039C578 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D7FD4ED2AC4D0650039C578 /* CalendarApp.swift in Sources */,
+				2D4090A82AC4DB5000EAD753 /* Util.swift in Sources */,
 				2D4090A62AC4DAFD00EAD753 /* CalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
